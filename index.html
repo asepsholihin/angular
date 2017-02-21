@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
   <head>
     <meta charset="utf-8">
     <title>Belajar Angular</title>
@@ -7,8 +7,11 @@
   </head>
   <body>
 
+    <div class="header" top-header></div>
+    <div ng-view></div>
 
-    <script type="text/javascript" href="assets/js/angular.min.js"></script>
-    <script type="text/javascript" href="assets/js/angular-route.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular-route.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>

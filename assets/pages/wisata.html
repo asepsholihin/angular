@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <input class="search" type="text" ng-model="search">
+
+  <ul class="content">
+    <li ng-repeat="vw in wisata | filter:search"><a href="#">Wisata {{ vw.nama }}, kota {{ vw.kota }}</a></li>
+  </ul>
+</div>
